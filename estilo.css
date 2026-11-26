@@ -1,0 +1,50 @@
+body {
+    background-color: #d9f0ff;
+    color: #002b49;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, legend, label {
+    color: #002b49;
+    text-align: center;
+}
+
+.cartao {
+    background-color: #d9f0ff;
+    border: 2px solid #002b49;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.foto-destaque {
+    border: 2px solid #002b49;
+}
+
+fieldset {
+    border: 2px solid #002b49;
+}
+
+input[type="text"],
+input[type="email"] {
+    background-color: #FFFFFF;
+    color: #002b49;
+    border: 2px solid #002b49;
+    font-size: 18px;
+}
+
+button {
+    background-color: #002b49;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus,
+button:focus {
+    outline: 3px solid #ff6600;
+}
